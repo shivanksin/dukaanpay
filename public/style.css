@@ -1,0 +1,162 @@
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+
+.left-words{
+  position: absolute;
+  top: 46%;
+  left: 11.2%;
+  font-size: medium;
+  width: 15%;
+  line-height: 175%;
+  overflow-wrap: break-word;
+  word-break: initial;
+
+}
+.left-total{
+  position: absolute;
+  top: 42%;
+  left: 14%;
+  font-size: medium;
+
+}
+.left-bank{
+
+  position: absolute;
+  top: 65%;
+  left: 10%;
+  font-size: medium;
+
+}
+.left-branch{
+  position: absolute;
+  top: 70%;
+  left: 12%;
+  font-size: medium;
+
+}
+.left-acc{
+  position: absolute;
+  top: 76%;
+  left: 16%;
+  font-size: medium;
+
+}
+.left-ifsc{
+  position: absolute;
+  top: 81.8%;
+  left: 16%;
+  font-size: medium;
+
+}
+
+
+.mid-bank {
+  position: absolute;
+  top: 40%;
+  left: 57.2%;
+  width: 6%;
+  overflow-wrap: break-word;
+  font-size: small;
+  word-break: initial;
+}
+.mid-branch{
+
+  position: absolute;
+  top: 50%;
+  left: 57.2%;
+  width: 6%;
+  overflow-wrap: break-word;
+  font-size: small;
+  word-break: initial;
+
+}
+.mid-ifsc{
+  position: absolute;
+  top: 42%;
+  left: 64.2%;
+  width: 6%;
+  overflow-wrap: break-word;
+  font-size: medium;
+  word-break: initial;
+
+}
+
+.rs-words {
+  position: absolute;
+  top: 25.5%;
+  left: 39%;
+  font-size: medium;
+}
+
+/* Top right text */
+.topright-total {
+  position: absolute;
+  top: 21.6%;
+  left: 84%;
+  font-size: x-large;
+}
+
+.box-amount{
+  position: absolute;
+  top: 52%;
+  left: 71%;
+  font-size: x-large;
+
+}
+
+.box-com{
+  position: absolute;
+  top: 52%;
+  left: 83%;
+  font-size: x-large;
+}
+.box-total{
+  position: absolute;
+  top: 52%;
+  left: 86%;
+  font-size: x-large;
+
+}
+
+
+.bottom-total {
+  position: absolute;
+  top: 68.8%;
+  left: 44.5%;
+  font-size: x-large;
+}
+
+
+
+
+/* Centered text */
+
+.centre-acc {
+  position: absolute;
+  top: 35.8%;
+  left: 29.2%;
+  font-size: x-large;
+  letter-spacing: 13.8px;
+}
+
+.centre-name {
+  position: absolute;
+  top: 41%;
+  left: 33%;
+  font-size: larger;
+}
+
+.centre-acc2 {
+  position: absolute;
+  top: 53%;
+  left: 29%;
+  font-size: x-large;
+  letter-spacing: 13.8px;
+}

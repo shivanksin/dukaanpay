@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<!-- //from db 
+// bank , branch , ifsc , firm , accno
+
+//others
+// total , words -->
+
+<body>
+    <div class="container">
+        <img src="./img2.jpg" style="width:100%;">
+        <div class="left-words"><%= words %> </div>
+        <div class="left-total"><%=total%>/-</div>
+        <div class="left-bank"><%= bank %></div>
+        <div class="left-branch"><%= branch %></div>
+        <div class="left-acc"><%= accno %></div>
+        <div class="left-ifsc"><%= ifsc %></div>
+        <div class="centre-name"><%= firm %> </div>
+        <div class="centre-acc"><%= accno %> </div>
+        <div class="centre-acc2"><%= accno %></div>
+        <div class="mid-bank"><%= bank %> </div>
+        <div class="mid-branch"><%= branch %> </div>
+        <div class="mid-ifsc"><%= ifsc %> </div>
+        <div class="topright-total"><%=total%>/-</div>
+        <div class="box-amount"><%= total %>/-</div>
+        <div class="box-total"><%=total%>/-</div>
+        <div class="box-com">0/-</div>
+        <div class="bottom-total"><%=total%>/-</div>
+        <div class="rs-words"><%= words %></div>
+    </div>
+</body>
+
+</html>

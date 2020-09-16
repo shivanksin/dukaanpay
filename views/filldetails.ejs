@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fill Details</title>
+</head>
+
+<body>
+    <form action="/" method="post">
+        <select name="firm" id="pet-select">
+            <% for( let index = 0; index < users.length; index++ ) { %>
+            <option value="<%= users[index].firm %>"><%= users[index].firm %></option>
+            <% } %>
+        </select>
+        <input type="text" name="total" placeholder="Enter Amount">
+        <button type="submit">Submit</button>
+    </form>
+    <a href="/add">ADD FIRMS</a>
+    <div>
+        <table style="width:100%">
+            <br>
+            <tr style="font-weight: bolder;">
+                <td>FIRM</td>
+                <td>BANK</td>
+                <td>Account No.</td>
+                <td>BRANCH</td>
+                <td>IFSC</td>
+            </tr>
+            <br>
+            <% for( let index = 0; index < users.length; index++ ) { %>
+                <tr>
+                    <td><%= users[index].firm %></td>
+                    <td><%= users[index].bank %></td>
+                    <td><%= users[index].accno %></td>
+                    <td><%= users[index].branch %></td>
+                    <td><%= users[index].ifsc %></td>
+                </tr>
+            <% } %>
+            
+        </table>
+    </div>
+</body>
+
+</html>
