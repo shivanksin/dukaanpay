@@ -4,20 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fill Details</title>
+    
+    <title>Dukaan Pay</title>
+
+    <link rel="stylesheet" href="sform.css">
+
+    <base href="/">
 </head>
 
 <body>
-    <form action="/" method="post">
-        <select name="firm" id="pet-select">
+    <div class='line-text'>Dukaan Pay!</div>
+    <br><br>
+    
+       <form action="/" method="post">
+        <select name="firm" id="pet-select" class="f">
             <% for( let index = 0; index < users.length; index++ ) { %>
             <option value="<%= users[index].firm %>"><%= users[index].firm %></option>
             <% } %>
         </select>
-        <input type="text" name="total" placeholder="Enter Amount">
-        <button type="submit">Submit</button>
+        <br><br>
+        <input type="text" name="total" placeholder="Enter Amount" class="f">
+        <br><br>
+        <button type="submit" class="f">Submit</button>
     </form>
-    <a href="/add">ADD FIRMS</a>
+    <br>
+    <a href="/add" class="f">ADD FIRMS</a>
     <div>
         <table style="width:100%">
             <br>
